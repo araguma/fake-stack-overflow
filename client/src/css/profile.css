@@ -1,0 +1,26 @@
+#profile {
+    display: flex;
+}
+#profile-info {
+    line-height: 24px;
+    padding-left: 256px;
+    margin-bottom: 32px;
+}
+.profile-about {
+    display: inline-block;
+    font-size: 16px;
+    padding-right: 24px;
+}
+#profile-navbar {
+    
+}
+.profile-link {
+    display: block;
+    text-align: right;
+    width: 122px;
+    padding: 16px 64px;
+}
+#profile-items {
+    flex-grow: 1;
+    padding-right: 128px;
+}

@@ -1,0 +1,13 @@
+#header {
+    margin-top: 64px;
+    height: 40px;
+    padding: 44px 64px;
+}
+#header-title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 40px;
+}
+#header-button {
+    float: right;
+}

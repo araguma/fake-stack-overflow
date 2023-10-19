@@ -1,0 +1,50 @@
+#answers {
+    padding: 0px 128px;
+}
+.answer {
+    display: flex;
+}
+
+.answer-voting {
+    padding: 0px 32px;
+}
+.answer-votes {
+    display: block;
+    width: 96px;
+    text-align: center;
+    margin: 16px 0px;
+}
+.answer-upvote {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #A2A2A2;
+    margin-left: 33px;
+}
+.answer-downvote {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid #A2A2A2;
+    margin-left: 33px;
+}
+
+.answer-section {
+    flex-grow: 1;
+}
+
+.answer-row {
+    display: block;
+    min-height: 24px;
+    margin: 8px;
+}
+#answer-text {
+    margin-bottom: 24px;
+}
+#answer-created {
+    display: block;
+    text-align: right;
+    margin-bottom: 16px;
+}

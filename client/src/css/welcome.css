@@ -1,0 +1,70 @@
+#welcome {
+    display: flex;
+    flex-direction: row;
+}
+
+#welcome-message {
+    padding: 256px 0px 0px 15%;
+    width: 50%;
+}
+#message {
+    width: 600px;
+}
+#message-large {
+    display: block;
+    font-size: 48px;
+    color: #2ECC71;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+#message-medium {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+#message-small {
+    display: block;
+    font-size: 18px;
+}
+
+#welcome-entry {
+
+    padding: 256px 15% 0px 0px;
+    width: 50%;
+}
+#entry {
+    margin-left: auto;
+    display: block;
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 480px;
+    min-height: 520px;
+    margin-bottom: 24px;
+}
+#entry-switch {
+    height: 56px;
+}
+#entry-forms {
+    padding: 32px;
+}
+.entry-button {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    width: 240px;
+    height: 56px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+#entry-left {
+    border-radius: 8px 0px 0px 0px;
+}
+#entry-right {
+    border-radius: 0px 8px 0px 0px;
+}
+.entry-submit {
+    float: right;
+}
+
+#guest-link {
+    float: right;
+}
